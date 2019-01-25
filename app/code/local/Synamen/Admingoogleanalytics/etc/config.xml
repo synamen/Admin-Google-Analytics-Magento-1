@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Synamen_Admingoogleanalytics>
+      <version>0.1.0</version>
+    </Synamen_Admingoogleanalytics>
+  </modules>
+  <global>
+    <helpers>
+      <admingoogleanalytics>
+        <class>Synamen_Admingoogleanalytics_Helper</class>
+      </admingoogleanalytics>
+    </helpers>
+  </global>
+  <adminhtml>
+    <layout>
+    <updates>
+    <sms>
+      <file>adminga.xml</file>
+    </sms>
+    </updates>
+  </layout>
+  </adminhtml>
+</config> 
